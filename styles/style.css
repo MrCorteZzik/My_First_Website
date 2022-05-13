@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:wght@700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:wght@700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: auto;
+}
+
+.header {
+  position: absolute;
+  width: 1920px;
+  height: 862px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, #0c4c7b -100%, #1e2f40 100%);
+}
+
+.header_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 1349px;
+  height: 862px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+:active {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.bg {
+  position: absolute;
+  width: 432px;
+  height: 862px;
+  left: 890px;
+
+  background: linear-gradient(
+    2.42deg,
+    #f37335 -19.6%,
+    #fbb731 100.79%,
+    #fdc830 100.79%
+  );
+}
+
+.visual {
+  width: 1349px;
+  height: 862px;
+}
+
+.text {
+  position: absolute;
+  top: 0 px;
+}
+
+.burger {
+  position: absolute;
+  left: 670px;
+  right: 201px;
+  top: 0px;
+}
+
+.span_title {
+  position: absolute;
+  font-family: "Nunito Sans";
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: #fbb731;
+  left: 15px;
+  top: -50px;
+}
+
+.title {
+  position: absolute;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 140px;
+  color: #faf9f9;
+  text-transform: uppercase;
+  margin: 0px;
+  top: 215px;
+  left: 80px;
+  height: 300px;
+}
+
+.subtitle {
+  position: absolute;
+  left: 85px;
+  top: 500px;
+  margin: auto;
+  height: 55px;
+  width: 527px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 140%;
+  color: #dedede;
+}
+
+.buy {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 170px;
+  height: 58px;
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  border-radius: 5px;
+  color: #1e2f40;
+  background-color: #fbb731;
+}
